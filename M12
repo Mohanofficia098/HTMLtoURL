@@ -1,0 +1,188 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Mafia Open World Game
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white">
+  <header class="bg-gray-800 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">
+     Mafia Open World
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Features
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-gray-400" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="text-center my-8">
+    <h2 class="text-4xl font-bold mb-4">
+     Welcome to the Mafia World
+    </h2>
+    <p class="text-lg mb-8">
+     Experience the thrill of the underworld in our open-world mafia game. Engage in intense missions, build your empire, and dominate the city.
+    </p>
+    <img alt="A detailed cityscape with a dark, gritty atmosphere, showcasing tall buildings, neon lights, and shadowy alleyways" class="mx-auto rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/TmyhuvNiY6q4K1xga2i7cQEqtWlcfgv2i3Np0DxItJwAeM4TA.jpg" width="800"/>
+   </section>
+   <section class="my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Features
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A character in a trench coat holding a gun, standing in a dark alley" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/t3phFIHN3ELIPpqoyHo3Y0EF5Kfu9vBekWGjEs5a7SKJ8M4TA.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Intense Missions
+      </h3>
+      <p>
+       Engage in a variety of missions that will test your skills and strategy.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A luxurious mansion with guards patrolling the perimeter" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/OcSkyCYtegx9ZSliVXdfgAOahrf4KbNDDXebAoHbSQLXwzgPB.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Build Your Empire
+      </h3>
+      <p>
+       Acquire properties, recruit members, and expand your influence.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A high-speed car chase through the city streets at night" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/Pq0v6Ffqd7UNEiihFIUreUmFzrIlEtLyMoldOysMWVUE8M4TA.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       High-Speed Chases
+      </h3>
+      <p>
+       Experience adrenaline-pumping car chases and escape from the law.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A detailed map of the city with various points of interest marked" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/7U3GKYeb99SZKiLD8d2VfAxtRDDzoKe29Egq1t0erkdIwzgPB.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Open World Exploration
+      </h3>
+      <p>
+       Explore a vast open world filled with secrets and opportunities.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A character customizing their appearance in front of a mirror" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/kdDI7d05VYJeO6WoCUbAEjFyxUVoQeHWhbtGrI9xx1VM8M4TA.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Character Customization
+      </h3>
+      <p>
+       Customize your character's appearance and gear to suit your style.
+      </p>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+      <img alt="A group of characters planning a heist around a table" class="w-full rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/l5P3L6TaQJYgER2klbXCFHbVNGjCnMJWYzhVrf3JB1xBeM4TA.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Strategic Planning
+      </h3>
+      <p>
+       Plan and execute heists with precision and teamwork.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Latest News
+    </h2>
+    <div class="space-y-4">
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg flex items-center">
+      <img alt="A news headline image showing a new game update" class="w-24 h-24 rounded-lg mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/5yMfCNMSb3STASM19NmtF0BiSkgM4r65boD1Wt8zWSqGeM4TA.jpg" width="100"/>
+      <div>
+       <h3 class="text-2xl font-bold">
+        New Update Released
+       </h3>
+       <p>
+        We have released a new update with exciting features and improvements.
+       </p>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg flex items-center">
+      <img alt="A news headline image showing a community event" class="w-24 h-24 rounded-lg mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/Oifn7nMBScVMTSmlPqXF7tZVqVoRygNdxDqgtKPteLtH8M4TA.jpg" width="100"/>
+      <div>
+       <h3 class="text-2xl font-bold">
+        Community Event
+       </h3>
+       <p>
+        Join our upcoming community event and win exclusive rewards.
+       </p>
+      </div>
+     </div>
+     <div class="bg-gray-800 p-4 rounded-lg shadow-lg flex items-center">
+      <img alt="A news headline image showing a new character reveal" class="w-24 h-24 rounded-lg mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/3LsQfRiTEzyQCql9rNtU9emQjqdSdaygLZR8R4RS5XWK8M4TA.jpg" width="100"/>
+      <div>
+       <h3 class="text-2xl font-bold">
+        New Character Reveal
+       </h3>
+       <p>
+        Meet the newest character joining the mafia world.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-gray-800 p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 Mafia Open World. All rights reserved.
+    </p>
+    <div class="flex justify-center space-x-4 mt-4">
+     <a class="hover:text-gray-400" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a class="hover:text-gray-400" href="#">
+      <i class="fab fa-youtube">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
